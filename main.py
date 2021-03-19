@@ -9,7 +9,7 @@ app = FastAPI()
 
 async def read_root():
 
-    return {"name": "Nahid Hasasn SeYam"}
+    return {"name": "I`m From API"}
 
 
 @app.get("/items/{item_id}")
